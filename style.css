@@ -384,6 +384,8 @@ header.rolagemHeader {
     box-shadow: 1px 35px 80px rgb(0, 0, 0, 0.50);
     transition: 0.5s;
     border-radius: 20px;
+    margin: 20px;
+    
 
 }
 .boxprojeto:hover{
@@ -423,10 +425,15 @@ header.rolagemHeader {
     height:30px;
     overflow: hidden;
     transition: 0.5s;
+   
 }
 .boxprojeto:hover .content{
     top: 150px;
     height: 250px;
+    
+}
+.boxprojeto:hover .content p{
+   margin: 10px;
 }
 #btn-projeto {
     height: 40px;
@@ -642,7 +649,7 @@ header.rolagemHeader {
 .titleexperiencia{
     color: aliceblue;
     font-size: 12pt;
-    margin: 30px;
+    margin: 40px;
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -674,7 +681,7 @@ header.rolagemHeader {
     border-radius: 20px;
 }
 .boxexperiencia:hover{
-    height: 450px;
+    height:550px;
 
 }
 .boxexperiencia .imagemexperiencia{
@@ -705,8 +712,9 @@ header.rolagemHeader {
     display: flex;
     flex-direction: column;
     gap: 0px;
+    margin-bottom: 5px;
     position: absolute;
-    top: 200px;
+    top: 150px;
     width: 100%;
     padding: 0px 30px;
     align-items: center;
@@ -714,10 +722,14 @@ header.rolagemHeader {
     overflow: hidden;
     transition:0.1s 0.2s;
 }
+.boxexperiencia .content h1{
+    margin-bottom: 32px;
+}
+
 
 .boxexperiencia:hover .content{
     top: 100px;
-    height: 400px;
+    height: 100%;
     
 }
 
@@ -728,6 +740,7 @@ header.rolagemHeader {
 }
 .boxexperiencia .content p {
     padding: 10px;
+    
 }
 @media (max-width:430px) {
     .boxexperiencias {
