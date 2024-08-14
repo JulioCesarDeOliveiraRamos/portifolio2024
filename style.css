@@ -385,12 +385,11 @@ header.rolagemHeader {
     transition: 0.5s;
     border-radius: 20px;
     margin: 20px;
-    
 
 }
 .boxprojeto:hover{
     height: 400px;
-
+    margin-top: 80px;
 }
 .boxprojeto .box-img{
     position: absolute;
@@ -714,7 +713,7 @@ header.rolagemHeader {
     gap: 0px;
     margin-bottom: 5px;
     position: absolute;
-    top: 150px;
+    top: 160px;
     width: 100%;
     padding: 0px 30px;
     align-items: center;
@@ -723,7 +722,7 @@ header.rolagemHeader {
     transition:0.1s 0.2s;
 }
 .boxexperiencia .content h1{
-    margin-bottom: 32px;
+    margin-bottom: 35px;
 }
 
 
